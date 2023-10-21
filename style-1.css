@@ -1,0 +1,86 @@
+.back {
+  background: linear-gradient(180deg, #90aea7 0%, #000 89.7%) !important;
+}
+
+.home {
+  margin-left: 21vw !important;
+  padding: 0px !important;
+}
+
+.play {
+  /* padding-left: 543px; */
+
+  margin-top: 27px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+.play h1 {
+  letter-spacing: 3px;
+  font-weight: 800;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.play .info p {
+  word-spacing: 2;
+  letter-spacing: 1.2;
+  color: #b4b4b4;
+  font-size: 12px;
+}
+
+.play .info span {
+  color: rgb(255, 255, 255);
+}
+
+.play-list {
+  /* opacity: 0.15; */
+  background: #00000061;
+
+  width: 79vw;
+}
+
+.play-list .like svg {
+}
+
+
+.songlist ol {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.songlist ol div {
+  gap: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.songlist ol li {
+    margin-top: 10px;
+    gap: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  
+    border: 5px;
+}
+
+.songlist ol li:hover{
+    background-color: rgb(69, 69, 69);
+}
+
+.songlist ol li img {
+  height: 53px;
+}
+.songlist ol p {
+  font-size: 12px;
+}

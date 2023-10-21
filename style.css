@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 p,
-span {
+span ,h1 {
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
@@ -48,6 +48,8 @@ h2 {
   display: flex;
 }
 
+
+
 .container nav {
   top: 0;
   left: 0;
@@ -70,6 +72,10 @@ h2 {
 .container nav ul {
   margin-top: 15px;
 }
+.container nav ul li:active{
+    background-color: #303030;
+    border-radius: 5px;
+  }
 
 .container nav ul li {
   /* background-color: #131313; */
