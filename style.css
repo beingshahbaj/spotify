@@ -51,6 +51,7 @@ h2 {
 
 
 .container nav {
+  z-index: 5;
   top: 0;
   left: 0;
   bottom: 0;
@@ -123,6 +124,7 @@ nav ul li svg {
   flex-shrink: 0;
 }
 .bottum {
+  z-index: 6;
     padding-top: 1px;
     align-items: flex-start;
     /* padding-inline: 29px; */
