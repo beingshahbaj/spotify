@@ -100,12 +100,12 @@ h2 {
     }
     .line {
       bottom: 5px;
-      position: absolute;
+      position: absolute !important;
       left: 0;
-      width: 100vw;
+      width: 100vw !important;
     }
     .line-2 {
-      width: 75vw;
+      width: 75vw !important;
     }
   }
 
