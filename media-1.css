@@ -1,0 +1,42 @@
+@media screen and (max-width: 480px) {
+ 
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .container nav {
+        width: 100vw !important;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        position: static !important;
+        /* width: 274.8px; */
+        background: #000;
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .home {
+     
+      margin-left: 0px !important;
+  }
+
+  
+   .home .play{margin-bottom: 20px;
+    display: flex;
+    flex-direction:  column;
+    align-items: stretch;
+  }
+  .play h1{
+    font-size: 31px;
+  }
+  .play-list {
+    width: 92vw;
+  }
+  .play-list .ike svg{
+   width: 32px;
+  }
+  }
